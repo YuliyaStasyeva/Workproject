@@ -1,0 +1,10 @@
+//Добавить к каждому элементу массива слова hello 
+var arr=["пирожок","тортик","булочка"]
+for (var i=0; i<=arr.length-1; i++){
+  //console.log (arr[i])
+  var newstr='Hello '+arr[i];
+  var arrNew=newstr.split(",")
+console.log (arrNew)
+  //arr.splice(i,i, newstr)
+}
+//console.log (arr);
