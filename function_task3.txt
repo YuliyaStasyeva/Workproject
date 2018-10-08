@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+  Функции: задача 2
+  </Head>
+    <body>
+    <script>
+    function typeOf(x) {
+console.log (typeOf)
+}
+typeof(4);
+
+    </script>
+	</body>
+
+	</html>
+
+    

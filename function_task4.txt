@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+  Функции: задача 2
+  </Head>
+    <body>
+    <script>
+    //Функция выбора четных элементов массива(возвращает новый массив)
+function selectArr() {
+  const arr=[1,5,8,9,10,15,20,22,27,29,30];
+  let newArr = [];
+  for (var i=0; i<=arr.length-1; i++) {
+    if(arr[i]%2==0){
+      newArr.push(arr[i]);
+    }
+}
+console.log (newArr)
+}
+  selectArr()
+
+    </script>
+	</body>
+
+	</html>
+
+    

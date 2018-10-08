@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+  Функции: задача 1
+  </Head>
+    <body>
+    <script>
+    function sum (a,b) {
+  console.log (a+b);
+}
+sum (4,5);
+    </script>
+	</body>
+
+	</html>
+
+    
