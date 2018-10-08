@@ -1,0 +1,6 @@
+//Прeобразовать массив в строку и обрaтно в массив 
+  var arr=[1,5,8,9,10,15,20,22,27,29,30];
+     var str=arr.join(" ,");
+   console.log (str)
+      var arr2=str.split(" ,");
+      console.log(arr2)
