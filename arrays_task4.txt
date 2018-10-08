@@ -1,0 +1,5 @@
+//Преобразовать числовой массив в boolean 
+var arr=[1,2,18,0,-1];
+for (var i=0; i<= arr.length-1; i++){
+  console.log (Boolean(arr[i]))
+}
