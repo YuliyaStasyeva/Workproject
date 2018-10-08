@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+  Функции: задача 2
+  </Head>
+    <body>
+    <script>
+    function defineName() {
+  var name=prompt("Введите имя");
+if (name=="Юля"){
+  alert ("Привет"+", "+name)
+}
+else {
+  alert ("Вали, Чувак")
+}
+}
+defineName();
+    </script>
+	</body>
+
+	</html>
+
+    
