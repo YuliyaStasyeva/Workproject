@@ -1,0 +1,9 @@
+//Создать объект, добавить к нему свойство 
+var person={}
+  person.name ="Юля";
+  person.age ="Вечно молодой";
+  console.log (person.name);
+
+//Изменить свойство объекта
+  person.name='Димон';
+  console.log (person.name)

@@ -1,8 +1,0 @@
-//Добавить к каждому элементу массива слова hello 
-var arr=["пирожок","тортик","булочка"]
-var newarr=[];
-for (var i=0; i<=arr.length-1; i++){
-  newarr.push('Hello '+arr[i]);
-}
-
-console.log(newarr);

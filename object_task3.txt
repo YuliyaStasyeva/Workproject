@@ -1,0 +1,7 @@
+//Сделать свойство объекта фунецией сложения двух чисел 
+var sum={}
+function summa (a,b) {
+  sum.function = a+b;
+}
+summa (4,5);
+console.log (sum.function)
