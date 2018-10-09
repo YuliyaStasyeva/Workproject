@@ -1,0 +1,7 @@
+//Преобразовать числовой массив в boolean 
+var arr=[1,2,18,0,-1];
+var Newarr=[];
+for (var i=0; i<= arr.length-1; i++){
+  Newarr.push (Boolean(arr[i]))
+  }
+console.log (Newarr);
