@@ -1,0 +1,28 @@
+//Реализовать инкапсуляцию.
+
+var Animals= function (a, b) {
+  var laps=a || 0;
+  var eyes=b || 0;
+
+  this.getLaps = function () {
+    return laps;
+  };
+  this.setLaps = function (a) {
+    laps=a || 0;
+  };    
+
+  this.getEyes = function () {
+    return eyes;
+  };
+  this.setEyes = function (b) {
+    eyes=b || 0;
+  };    
+};
+
+
+var cat = new Animals(7,5);
+cat.setLaps(4);
+cat.setEyes(2);
+
+console.log('Laps: '+cat.getLaps()+', Eyes: '+cat.getEyes());
+console.log('Laps: '+cat.laps+', Eyes: '+cat.eyes);
