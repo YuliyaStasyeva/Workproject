@@ -1,0 +1,14 @@
+//Есть объект a с набором свойств, объект b должен унаследовать свойства a  
+function Beauty () {
+  this.eyes="blue"
+  this.hair="blond"
+  this.height=180
+};
+function Masha() {
+  Beauty.apply(this, arguments);
+}
+
+Masha.prototype=Object.create(Beauty.prototype);
+var masha= new Masha ('женщина');
+
+console.dir(masha);
