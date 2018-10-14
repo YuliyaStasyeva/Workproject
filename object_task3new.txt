@@ -1,0 +1,10 @@
+//Сделать свойство объекта функцией сложения двух чисел
+var operation={
+sum: summa(10,12)
+}
+
+function summa (a,b) {
+ return a+b;
+}
+
+console.log (operation.sum)
