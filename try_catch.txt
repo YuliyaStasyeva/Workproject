@@ -1,0 +1,15 @@
+try {
+  function division (){
+    
+    if (isFinite(1/0)==true){
+     alert ("Ха-ха-ха")
+    } else {
+     throw new SyntaxError ("Error")
+    }
+  }
+  
+  division ();
+}
+catch (e) {
+  alert("На ноль делить нельзя");
+}
